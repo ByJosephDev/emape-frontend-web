@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from '../views/Home';
-import Person from '../views/Person';
+import Register from '../views/Person/Register';
 
 function RouterApp() {
     return (
@@ -12,7 +12,7 @@ function RouterApp() {
             />
             <Route
                 path="/home"
-                element={<Person />}
+                element={<Register />}
             />
         </Routes>
     );

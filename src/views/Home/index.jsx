@@ -29,7 +29,7 @@ const Home = () => {
     }
 
     return (
-        <div >
+        <div>
             <Paper elevation={3}
                 style={{ width: '300px', padding: '20px', marginTop:'25vh', marginLeft:'70vh' }}
             >
