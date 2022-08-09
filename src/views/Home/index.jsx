@@ -48,7 +48,6 @@ const Home = () => {
                     <Button onClick={handleLogin} variant="contained" >Login</Button>
                 </Grid>
             </Paper>
-
         </div>
     );
 };

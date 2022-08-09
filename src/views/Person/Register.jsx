@@ -11,7 +11,7 @@ const Register = () => {
 
     return (
         <>
-            <ButtonAppBar />
+            <ButtonAppBar />            
             <div style={{ padding: '50px' }} >
                 <Grid>
                     <h2>Registrar persona</h2>

@@ -6,7 +6,8 @@ import {
 
 import './style.css';
 
-import { useState } from 'react';
+
+import { useState, useEffect } from 'react';
 
 
 const RegisterSteps = () => {
@@ -23,7 +24,7 @@ const RegisterSteps = () => {
         code: '',
         first_lastname: '',
         second_lastname: '',
-        name: '',
+        name: 'default',
         full_name: '',
     });
 
@@ -31,7 +32,7 @@ const RegisterSteps = () => {
         const { name, value } = event.target;
         setFields({ ...fields, [name]: value });
     };
-
+    
     const backStep = () => setStep(step - 1);
     const handleSubmit = () => alert('Datos enviado correctamente');
 
